@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lists/lists",
+    "pages/info/info",
+    "pages/movies/movies"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#8ed145",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "旧城书"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/lists/lists",
+        "text": "首页",
+        "iconPath":"/images/tab/yuedu.png",
+        "selectedIconPath":"/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "看电影",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+<!--pages/listTemp/listTemp.wxml-->
+
+<template name="msg">
+  <view class='tempContainer'>
+    <view class='avator'>
+      <image src="{{avatar}}"></image>
+      <text>may 19 2019</text>
+    </view>
+    <text class='title'>教育理念</text>
+    <image src='{{detail_img}}' class='title_pic'></image>
+    <text class='discription'>{{detail_content}}</text>
+    <view class='start_Container'>
+      <image src='/images/icon/none-star.png'></image>
+      <text>{{love_count}}</text>
+      <image src='/images/icon/view.png'></image>
+      <text>{{attention_count}}</text>
+    </view>
+  </view>
+</template>  

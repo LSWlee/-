@@ -1,0 +1,24 @@
+<!--pages/lists/lists.wxml-->
+<import src="/pages/listTemp/listTemp.wxml"/>  
+<view>
+  <swiper indicator-dots indicator-color='#8ed145' indicator-active-color='pink' autoplay='true' circular='true'>
+    <swiper-item>
+      <image src='/images/detail/carousel/01.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+    <image src='/images/detail/carousel/02.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/images/detail/carousel/03.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/images/detail/carousel/04.jpg'></image>
+  </swiper-item>
+  </swiper>
+  <block>
+    <view wx:for="{{listDatas}}" wx:key="{{index}}" catchtap='toInfo' data-index='{{index}}'>
+      <template is="msg" data="{{...item}}"/>
+    </view>
+  </block> 
+</view>
+

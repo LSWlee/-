@@ -1,0 +1,21 @@
+<!--pages/info/info.wxml-->
+<view class='infoContainer'>
+  <image src='{{isPlayMusic? infoData.music.coverImgUrl : infoData.detail_img}}' class='info_title_pic'></image>
+  <image src='{{isPlayMusic ? "/images/music/music-start.png" : "/images/music/music-stop.png"}}' class='isMusicPlay' bindtap='handleIsPlayMusic'></image>
+  <view>
+    <image src='{{infoData.avatar}}' class='info_avatar'></image>
+    <text class='info_date'>{{infoData.author}} 发布与 {{infoData.date}}</text>
+  </view> 
+  <view class='info_title'>{{infoData.title}}</view>
+  <view class='parent'>
+    <view class='share'>
+      <image src='{{isCollection ? "/images/icon/collection.png" : "/images/icon/collection-anti.png"}}' class='info_collection'  bindtap='collection'></image>
+      <image src='/images/icon/share.png' class='info_share' catchtap='handleShare'></image>
+    </view>
+    <view class='line'></view>
+  </view> 
+  <view class='btn'>
+    <text class='info_btn'>转发此文</text>
+  </view>
+  <text class='info_content'>{{infoData.detail_content}}</text>
+</view>

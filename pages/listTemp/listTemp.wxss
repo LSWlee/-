@@ -1,0 +1,49 @@
+.tempContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+}
+.avator {
+  width: 100%;
+  height: 50rpx;
+  padding-left: 10rpx;
+}
+.avator image {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50rpx;
+  vertical-align: middle;
+}
+.avator text {
+  font-size: 28rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.title {
+  font-size: 38rpx;
+  font-weight: 700;
+  margin: 10rpx;
+}
+.title_pic {
+  width: 100%;
+  height: 290rpx;
+}
+.discription {
+  font-size: 36rpx;
+  text-indent:36rpx;
+  word-spacing: 10rpx;
+  line-height: 60rpx;
+  color: #666;
+}
+.start_Container image {
+  width: 26rpx;
+  height: 26rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.start_Container text {
+  font-size: 28rpx;
+  color: #666;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}

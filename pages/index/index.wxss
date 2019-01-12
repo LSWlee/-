@@ -1,0 +1,38 @@
+/* pages/index/index.wxss */
+page {
+  background: #8ed145;
+  height: 100%
+}
+.content {
+  display: flex;
+  flex-direction:column;
+  align-items: center
+}
+.content .pic {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+  margin: 100rpx 0rpx;
+}
+.userName {
+  margin: 100rpx 0rpx;
+}
+.btn {
+  width: 280rpx;
+  height: 80rpx;
+  border: 1rpx solid #000;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 10rpx;
+  margin: 100rpx 0rpx
+}
+button {
+  width: 300rpx;
+  height: 300rpx;
+  font-size: 32rpx;
+  border-radius: 300rpx;
+  margin-top: 200rpx;
+  text-align: center;
+  line-height: 300rpx;
+}

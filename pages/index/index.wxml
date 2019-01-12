@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class='content'>
+  <image src='{{userInfo.avatarUrl}}' class='pic' wx:if='{{userInfo.avatarUrl}}'></image>
+  <button open-type='getUserInfo' bindgetuserinfo='handleGetUserInfo' wx:else>点击获取权限</button>
+  <text class='userName'>hallow {{userInfo.nickName}}</text>
+  <view class='btn' bindtap='handleStudy'>
+    <text class='goStudy'>开启小程序之旅</text>
+  </view>
+</view>

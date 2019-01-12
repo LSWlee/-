@@ -1,0 +1,6 @@
+/* pages/lists/lists.wxss */
+@import '../listTemp/listTemp.wxss';
+swiper-item image{
+  width: 100%;
+  height: 100%;
+}
